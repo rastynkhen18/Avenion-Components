@@ -4,6 +4,7 @@
   --black-color: #333333;
   --white-color: #ffffff;
   --red-color: #E44040;
+  --gray-color: #818181;
   --bg-white: #F3F3F3;
 }
 
@@ -11,11 +12,12 @@
   --black-color: #333333;
   --white-color: #ffffff;
   --red-color: #E44040;
+  --gray-color: #818181;
   --bg-white: #F3F3F3;
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--background-color);
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
   font-family: system-ui, sans-serif;

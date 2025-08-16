@@ -1,7 +1,7 @@
 import React from 'react';
-import gallery1 from '../assets/images/gallery-01.png';
-import gallery2 from '../assets/images/gallery-02.png';
-import gallery3 from '../assets/images/gallery-03.png';
+import gallery01 from '../assets/images/gallery-01.png';
+import gallery02 from '../assets/images/gallery-02.png';
+import gallery03 from '../assets/images/gallery-03.png';
 
 const GallerySection = () => {
   return (
@@ -9,7 +9,7 @@ const GallerySection = () => {
       <section className="bg-[var(--black-color)]">
       <div className="grid grid-cols-4 items-center gap-5 p-15">
           {/* Heading Section */}
-          <div className="col-span-4 md:col-span-1 text-center md:text-left mb-10 lg:mb-0">
+          <div className="text-center md:text-left">
             <h1 className="text-7xl text-[var(--white-color)] font-semibold">
               EFFORTLESS COMFORT.
             </h1>
@@ -25,26 +25,26 @@ const GallerySection = () => {
           </div>
 
           {/* Gallery Images */}
-          <div className="col-span-4 md:col-span-1">
+          <div>
             <img
               className="w-full h-96 object-cover"
-              src={gallery1}
-              alt="gallery1"
+              src={gallery01}
+              alt="gallery01"
             />
           </div>
 
-          <div className="col-span-4 md:col-span-1">
+          <div>
             <img
               className="w-full h-96 object-cover"
-              src={gallery2}
-              alt="gallery2"
+              src={gallery02}
+              alt="gallery02"
             />
           </div>
 
-          <div className="col-span-4 md:col-span-1">
+          <div>
             <img
               className="w-full h-96 object-cover"
-              src={gallery3}
+              src={gallery03}
               alt="gallery3"
             />
           </div>

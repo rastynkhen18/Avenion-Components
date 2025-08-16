@@ -2,7 +2,10 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HeroSection from './components/HeroSection';
 import AvenionSlideshow from './components/AvenionSlideshow';
-import GallerySection from './components/GallerySection';
+import PremiumDripAndComfySection from './components/PremiumDripAndComfySection';
+import ClogSlipperSection from './components/ClogSlipperSection';
+import ShoesSetion from './components/ShoesSetion';
+
 
 
 const App = () => {
@@ -11,7 +14,9 @@ const App = () => {
       <Router>
         <HeroSection/>
         <AvenionSlideshow/>
-        <GallerySection/>
+        <PremiumDripAndComfySection/>
+        <ClogSlipperSection/>
+        <ShoesSetion/>
         {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
